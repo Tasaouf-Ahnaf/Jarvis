@@ -6,13 +6,13 @@
 
 ```
 jarvis/
-├── app.py              ← Flask backend (all API logic)
-├── requirements.txt    ← Python dependencies
-├── render.yaml         ← Render deployment config
-├── custom_sites.txt    ← Auto-created when you teach Jarvis new sites
-├── Openai/             ← Auto-created folder for AI task outputs
+├── app.py
+├── requirements.txt
+├── runtime.txt
+├── Procfile
+├── render.yaml
 └── templates/
-    └── index.html      ← Full frontend (Iron Man HUD UI)
+    └── index.html
 ```
 
 ---
